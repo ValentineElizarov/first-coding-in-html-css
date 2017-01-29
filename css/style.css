@@ -1,0 +1,177 @@
+/* line 5, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*__________adjustment__________*/
+/* line 3, ../sass/style.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 8, ../sass/style.scss */
+body {
+  background: #f0f0f0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 14, ../sass/style.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 19, ../sass/style.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 23, ../sass/style.scss */
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 28, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 32, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 35, ../sass/style.scss */
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 41, ../sass/style.scss */
+.footer {
+  height: 115px;
+  margin-top: -115px;
+  position: relative;
+}
+
+/* line 47, ../sass/style.scss */
+.empty {
+  height: 115px;
+}
+
+/* line 51, ../sass/style.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/*__________header__________*/
+/* line 56, ../sass/style.scss */
+.header {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb3e38+0,ff8f30+100 */
+  background: #fb3e38;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #fb3e38 0%, #ff8f30 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #fb3e38 0%, #ff8f30 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #fb3e38 0%, #ff8f30 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb3e38', endColorstr='#ff8f30',GradientType=1 );
+  /* IE6-9 */
+}
+
+/* line 66, ../sass/style.scss */
+.header__logo, .header__search, .header__menu {
+  float: left;
+}
+
+/* line 70, ../sass/style.scss */
+.header__top:before, .header__top:after {
+  display: table;
+  content: "";
+}
+
+/* line 75, ../sass/style.scss */
+.header__top:after {
+  clear: both;
+}
+
+/* line 79, ../sass/style.scss */
+.header__logo {
+  width: 25%;
+}
+
+/* line 83, ../sass/style.scss */
+.header__search {
+  width: 40%;
+}
+
+/* line 87, ../sass/style.scss */
+.header__menu {
+  width: 35%;
+}

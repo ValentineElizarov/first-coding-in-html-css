@@ -7,3 +7,15 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}
